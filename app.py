@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 # import the model
 pipe = pickle.load(open('pipe.pkl','rb'))
-df = pd.compat.pickle_compat.load('pipe.pkl') 
+df = pickle.load(open('df.pkl','rb'))
 
 
 
