@@ -6,7 +6,7 @@ import pandas as pd
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 
-
+df = pd.compat.pickle_compat.load('file.pkl') 
 
 st.title("Laptop Predictor")
 
